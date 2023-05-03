@@ -35,4 +35,5 @@ subprojects {
 // this will not affect subprojects
 tasks.dokkaHtmlMultiModule {
     moduleName.set("Dokka MultiModule Example")
+    includes.from("AllModules.md")
 }
